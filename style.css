@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/j-0pjgxE1kc");
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.container {
+  width: 750px;
+  margin: 50px auto;
+  text-align: justify left;
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  color: #A0A0A0;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 20px;
+  font-style: italic;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(233, 237, 253), rgb(233, 236, 253));
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 550px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+}
+
+/* Make sure to resize the container for all other screen sizes (`576px`, `768px`, `992px` and `1200px`). */
